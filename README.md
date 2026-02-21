@@ -26,6 +26,7 @@ MODIS Land Surface Temperature (LST)
 Google Earth Engine for satellite data processing
 
 ⚙️ Methodology
+
 1️⃣ Data Acquisition
 Multi‑date satellite images were collected for:
 
