@@ -1,5 +1,6 @@
 # Forest-Fire-Impact
 Geospatial and data enthusiast working with remote sensing, GIS, and Python to analyze environmental patterns. Interested in satellite imagery, spatial modeling, and building reproducible workflows for real-world applications.
+
 📌 Overview
 This project analyzes the impact of forest fires on vegetation using multi‑temporal satellite data. By integrating burn severity, thermal stress, and vegetation indices, the study evaluates how fire events influence ecosystem health over time through a coupled analytical framework.
 
@@ -79,12 +80,18 @@ Remote sensing & GIS concepts
 All analyses were performed using a dedicated Conda environment to ensure reproducibility and avoid dependency conflicts. The environment was managed using Anaconda and executed through Jupyter Notebook in Visual Studio Code.
 
 🐍 Creating Conda Environment
+```bash
 conda create -n fire_project python=3.10
 conda activate fire_project
+```
 📦 Installing Required Libraries
+```bash
 conda install -c conda-forge rasterio numpy pandas matplotlib scipy
+```
 📓 Setting up Jupyter Kernel
+```bash
 python -m ipykernel install --user --name fire_project --display-name "fire_project"
+```
 💻 Running in VS Code
 Open project folder in Visual Studio Code
 
@@ -99,13 +106,14 @@ Select kernel → fire_project
 Run all cells
 
 📂 Project Structure
+```bash
 Similipal_Project/
-│
 ├── Pre_Fire/
 ├── During_Fire/
 ├── Post_Fire/
 ├── analysis.ipynb
 └── README.md
+```
 ▶️ How to Run
 Activate conda environment
 
